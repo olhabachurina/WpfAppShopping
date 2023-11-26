@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="apple.png" />
+    <None Remove="cart.png" />
+    <None Remove="cherry.png" />
+    <None Remove="grape.png" />
+    <None Remove="orange.png" />
+    <None Remove="peach.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="apple.png" />
+    <Resource Include="cart.png" />
+    <Resource Include="cherry.png" />
+    <Resource Include="grape.png" />
+    <Resource Include="orange.png" />
+    <Resource Include="peach.png" />
+  </ItemGroup>
+
+</Project>
